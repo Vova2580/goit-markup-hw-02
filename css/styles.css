@@ -1,0 +1,76 @@
+/*  Основной цвет текста #212121; */
+/* вторичный цыет текста  #757575;*/
+/* акцент #2196F3;*/
+/*  Основной цвет фона  #F5F5F5;*/
+/* Вторичный цвета фона #F5F4FA; */
+
+:root{
+--primary-text-color:#212121;
+--secondary-text-color:#757575;
+--accent-text-color:#2196F3;
+--primary-bg-color:#F5F5F5;
+--secondary-bg-color:#F5F4FA;
+}
+
+ul{
+list-style: none;
+}
+
+/* header */
+.logo {
+   color: #000000; 
+}
+
+
+.span-logo{
+   color:var(--accent-text-color); 
+}
+
+/* site nav */
+
+.site-nav .nav-link
+{
+  color: var(--primary-text-color);
+}
+
+.site-nav .nav-link:hover,
+.site-nav .nav-link:focus{
+color:red;
+}
+
+.contact-mail{
+    color:var(--accent-text-color); 
+}
+.contact-phone{
+    color:var(--secondary-text-color);
+}
+
+/* main */
+
+/* hero */
+
+/* .hero-title{
+   color:#FFFFFF 
+} */
+
+/* section1 */
+
+.features-content{
+color:var(--secondary-text-color);
+}
+
+.section-title{
+    color: var(--primary-text-color);
+}
+/* section2 */
+
+/* section3 */
+
+.team-member{
+color: var(--primary-text-color);
+}
+
+.position{
+  color:var(--secondary-text-color);
+  
+}

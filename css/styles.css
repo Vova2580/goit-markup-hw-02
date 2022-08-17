@@ -17,6 +17,11 @@ list-style: none;
 }
 
 /* header */
+
+.header{
+background-color: #FFFFFF;
+
+}
 .logo {
    color: #000000; 
 }
@@ -49,9 +54,15 @@ color:red;
 
 /* hero */
 
-/* .hero-title{
-   color:#FFFFFF 
-} */
+.button{
+  color:#FFFFFF;
+  background-color: var(--accent-text-color);
+}
+
+.button:hover,
+.button:focus{
+  background-color: red;
+}
 
 /* section1 */
 
@@ -74,3 +85,31 @@ color: var(--primary-text-color);
   color:var(--secondary-text-color);
   
 }
+
+/* footer */
+
+.footer{
+  background-color: #2F303A;;
+}
+
+.footer-logo{
+  color:#FFFFFF;
+}
+
+.footer-span{
+  color:var(--accent-text-color)
+}
+
+.address{
+  color:#FFFFFF;
+}
+
+.footer-mail{
+
+  color:rgba(255, 255, 255, 0.6);
+}
+
+.footer-number{
+  color:rgba(255, 255, 255, 0.6);
+}
+

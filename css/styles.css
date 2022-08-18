@@ -40,7 +40,11 @@ background-color: #FFFFFF;
 
 .site-nav .nav-link:hover,
 .site-nav .nav-link:focus{
-color:red;
+color:var(--accent-text-color);
+}
+
+.site-nav .nav-link.current {
+  color:var(--accent-text-color)
 }
 
 .contact-mail{
@@ -50,9 +54,15 @@ color:red;
     color:var(--secondary-text-color);
 }
 
-/* main */
 
 /* hero */
+.hero{
+  background-color: #2F303A;
+}
+
+.hero-title{
+  color:#FFFFFF;
+}
 
 .button{
   color:#FFFFFF;
@@ -70,12 +80,21 @@ color:red;
 color:var(--secondary-text-color);
 }
 
+.section{
+  background-color: var(--primary-bg-color);
+}
+
 .section-title{
     color: var(--primary-text-color);
 }
+
 /* section2 */
 
+
 /* section3 */
+.our-team {
+  background-color: var(--secondary-bg-color);
+}
 
 .team-member{
 color: var(--primary-text-color);
@@ -112,4 +131,11 @@ color: var(--primary-text-color);
 .footer-number{
   color:rgba(255, 255, 255, 0.6);
 }
+
+/* portfolio */
+
+
+
+
+
 

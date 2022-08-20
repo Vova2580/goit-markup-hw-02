@@ -21,7 +21,8 @@
 }
 body{
   font-family: 'Roboto', sans-serif; 
-  background-color: var(--primary-bg-color);
+  background-color:var(--light-color);
+  color: var(--secondary-text-color);
 }
 
 .list{
@@ -44,11 +45,6 @@ list-style: none;
   letter-spacing: 0.03em;
   
 }
-.logo:hover{
-  color:var(--accent-text-color);
-}
-
-
 .span-logo{
    color:var(--accent-text-color); 
 }
@@ -80,7 +76,7 @@ color:var(--accent-text-color);
 
 
 .contact-mail{
-    color:var(--accent-text-color); 
+    color:var(--secondary-text-color); 
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -95,6 +91,15 @@ color:var(--accent-text-color);
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
 }
+.contact-mail:hover,
+.contact-phone:hover{
+color:var(--accent-text-color);
+}
+.contact-mail:focus,
+.contact-phone:focus{
+  color: var(--accent-text-color);
+}
+
 
 
 /* hero */
@@ -125,12 +130,12 @@ text-transform: uppercase;
 
 .button:hover,
 .button:focus{
-  background-color: red;
+  background-color:#188CE8;
 }
 
 /* section1 */
 .section{
-background-color: var(--primary-bg-color);
+background-color: var(--light-color);
 } 
 
 .section-title{
@@ -145,6 +150,7 @@ letter-spacing: 0.03em;
 }
 
 .features-title{
+color: var(--primary-text-color);
 font-weight:700;
 font-size: 14px;
 line-height:calc(16 / 14);
@@ -205,6 +211,8 @@ background-color:var(--hero-footer-bg-color);
 
 .address{
 color: var(--light-color);
+font-style: normal;
+font-size: 14px;
 text-decoration: none;
 letter-spacing: 0.03em;
 }
@@ -222,6 +230,7 @@ text-decoration: none;
 .portfolio-button{
 cursor: pointer;
 color: var(--primary-text-color);
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height:calc(26 / 16);

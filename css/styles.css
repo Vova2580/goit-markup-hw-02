@@ -134,9 +134,6 @@ text-transform: uppercase;
 }
 
 /* section1 */
-.section{
-background-color: var(--light-color);
-} 
 
 .section-title{
 color: var(--primary-text-color);
@@ -159,7 +156,6 @@ text-transform: uppercase;
 }
 
 .features-content{
-color:var(--secondary-text-color);
 font-weight: 400;
 font-size: 14px;
 line-height:calc(24 / 14);
@@ -181,7 +177,6 @@ letter-spacing: 0.03em;
 }
 
 .position{
-  color:var(--secondary-text-color);
 font-weight: 400;
 font-size: 16px;
 line-height:calc(19 / 16);
@@ -219,9 +214,20 @@ letter-spacing: 0.03em;
 
 .footer-mail,.footer-number{
 color:rgba(255, 255, 255, 0.6);
+font-style: normal;
+font-size:14px;
 letter-spacing: 0.03em;
 text-decoration: none;
 }
+.footer-number:hover,
+.footer-number:focus{
+ color:var(--accent-text-color);
+}
+.footer-mail:hover,
+.footer-mail:focus{
+  color:var(--accent-text-color);
+}
+
 
 /* portfolio */
 
@@ -230,6 +236,7 @@ text-decoration: none;
 .portfolio-button{
 cursor: pointer;
 color: var(--primary-text-color);
+background-color:var(--secondary-bg-color);
 font-family: inherit;
 font-weight: 500;
 font-size: 16px;
@@ -252,7 +259,6 @@ letter-spacing: 0.06em;
 }
 
 .portfolio-content{
-color: var(--secondary-text-color);
 font-size: 16px;
 line-height:calc(30 / 16);
 letter-spacing: 0.03em;
